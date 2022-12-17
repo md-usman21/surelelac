@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="5" name="Suite">
+
+
+
+<listeners>
+<listener class-name="Utility.ListnerClass"></listener>
+</listeners>
+  
+  <test thread-count="5" name="Test chrome">
+  <parameter name="browserName" value="chrome"/>
+  <classes>
+  <class name="TestCase.TestCollectionPage"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test Edge">
+  <parameter name="browserName" value="Edge"/>
+  <classes>
+  <class name="TestCase.TestCollectionPage"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test Safari">
+  <parameter name="browserName" value="Safari"/>
+  <classes>
+  <class name="TestCase.TestCollectionPage"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

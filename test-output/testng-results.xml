@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-17T10:59:13 IST" name="Suite" finished-at="2022-12-17T11:00:38 IST" duration-ms="84804">
+    <groups>
+    </groups>
+    <test started-at="2022-12-17T10:59:13 IST" name="Test chrome" finished-at="2022-12-17T10:59:39 IST" duration-ms="25661">
+      <class name="TestCase.TestCollectionPage">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:TestCase.TestCollectionPage@4659191b]" started-at="2022-12-17T10:59:13 IST" name="setBrowser" finished-at="2022-12-17T10:59:24 IST" duration-ms="10766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="abc()[pri:0, instance:TestCase.TestCollectionPage@4659191b]" started-at="2022-12-17T10:59:24 IST" name="abc" description="Test_CollectionPage" finished-at="2022-12-17T10:59:38 IST" duration-ms="14028" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[failed to click on clickviewmycrt expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: failed to click on clickviewmycrt expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at TestCase.TestCollectionPage.abc(TestCollectionPage.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TestCollectionPage@4659191b]" started-at="2022-12-17T10:59:39 IST" name="close" finished-at="2022-12-17T10:59:39 IST" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCase.TestCollectionPage -->
+    </test> <!-- Test chrome -->
+    <test started-at="2022-12-17T10:59:39 IST" name="Test Edge" finished-at="2022-12-17T11:00:38 IST" duration-ms="59023">
+      <class name="TestCase.TestCollectionPage">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:TestCase.TestCollectionPage@2794eab6]" started-at="2022-12-17T10:59:39 IST" name="setBrowser" finished-at="2022-12-17T10:59:49 IST" duration-ms="9658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="abc()[pri:0, instance:TestCase.TestCollectionPage@2794eab6]" started-at="2022-12-17T10:59:49 IST" name="abc" description="Test_CollectionPage" finished-at="2022-12-17T11:00:38 IST" duration-ms="48845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TestCollectionPage@2794eab6]" started-at="2022-12-17T11:00:38 IST" name="close" finished-at="2022-12-17T11:00:38 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCase.TestCollectionPage -->
+    </test> <!-- Test Edge -->
+    <test started-at="2022-12-17T11:00:38 IST" name="Test Safari" finished-at="2022-12-17T11:00:38 IST" duration-ms="77">
+      <class name="TestCase.TestCollectionPage">
+        <test-method is-config="true" signature="display1()[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2022-12-17T10:59:13 IST" name="display1" finished-at="2022-12-17T10:59:13 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display1 -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2022-12-17T11:00:38 IST" name="setBrowser" finished-at="2022-12-17T11:00:38 IST" duration-ms="18" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Unable to find driver executable: \usr\bin\safaridriver(SafariDriver requires Safari 10 running on OSX El Capitan or greater.)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: SafariDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to find driver executable: \usr\bin\safaridriver(SafariDriver requires Safari 10 running on OSX El Capitan or greater.)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.safari.SafariDriverService$Builder.findDefaultExecutable(SafariDriverService.java:110)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:450)
+at org.openqa.selenium.safari.SafariDriverService.createDefaultService(SafariDriverService.java:67)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:60)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:49)
+at Utility.BaseTest.setBrowser(BaseTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="abc()[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2022-12-17T11:00:38 IST" name="abc" description="Test_CollectionPage" finished-at="2022-12-17T11:00:38 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Unable to find driver executable: \usr\bin\safaridriver(SafariDriver requires Safari 10 running on OSX El Capitan or greater.)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: SafariDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to find driver executable: \usr\bin\safaridriver(SafariDriver requires Safari 10 running on OSX El Capitan or greater.)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.safari.SafariDriverService$Builder.findDefaultExecutable(SafariDriverService.java:110)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:450)
+at org.openqa.selenium.safari.SafariDriverService.createDefaultService(SafariDriverService.java:67)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:60)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:49)
+at Utility.BaseTest.setBrowser(BaseTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2022-12-17T11:00:38 IST" name="close" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1671255038699" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="display2()[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2022-12-17T11:00:38 IST" name="display2" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1671255038782" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display2 -->
+      </class> <!-- TestCase.TestCollectionPage -->
+    </test> <!-- Test Safari -->
+  </suite> <!-- Suite -->
+</testng-results>

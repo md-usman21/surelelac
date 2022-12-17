@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utility.ListnerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test chrome(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="TestCase.TestCollectionPage">
+        <methods>
+          <include name="display1"/>
+          <include name="setBrowser"/>
+          <include name="display2"/>
+          <include name="close"/>
+          <include name="abc"/>
+        </methods>
+      </class> <!-- TestCase.TestCollectionPage -->
+    </classes>
+  </test> <!-- Test chrome(failed) -->
+  <test thread-count="5" name="Test Safari(failed)">
+    <parameter name="browserName" value="Safari"/>
+    <classes>
+      <class name="TestCase.TestCollectionPage">
+        <methods>
+          <include name="display1"/>
+          <include name="setBrowser"/>
+          <include name="display2"/>
+          <include name="close"/>
+          <include name="abc"/>
+        </methods>
+      </class> <!-- TestCase.TestCollectionPage -->
+    </classes>
+  </test> <!-- Test Safari(failed) -->
+</suite> <!-- Failed suite [Suite] -->
