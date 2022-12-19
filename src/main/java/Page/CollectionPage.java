@@ -41,7 +41,7 @@ public class CollectionPage
 	@FindBy(xpath = "//button[@tabindex=\"0\"]")
 	private WebElement closep;
 	
-//mohammad usman ansari	
+
 
 	
 	//Constructor
