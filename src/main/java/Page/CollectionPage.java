@@ -41,8 +41,7 @@ public class CollectionPage
 	@FindBy(xpath = "//button[@tabindex=\"0\"]")
 	private WebElement closep;
 	
-//second commit
-//THIRD COMMIT	
+	
 
 	
 	//Constructor
