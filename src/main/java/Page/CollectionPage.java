@@ -15,6 +15,7 @@ import Utility.TestUtils;
 public class CollectionPage 
 {
 	WebDriver driver;
+//	final change
 	
 	//first product
 	@FindBy(xpath = "//a[@href='/products/101-t-shirt']")
