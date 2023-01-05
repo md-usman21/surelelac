@@ -4,9 +4,6 @@ package TestCase;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-
-
 import Page.CollectionPage;
 import Page.FormData;
 import Utility.BaseTest;
