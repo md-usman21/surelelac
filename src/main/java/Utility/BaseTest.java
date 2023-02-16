@@ -17,7 +17,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class BaseTest
 
@@ -44,7 +44,7 @@ public class BaseTest
 		
 		if(browserName.equals("chrome"))
 		{
-			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			System.out.println("Test on Chrome");
 	    }

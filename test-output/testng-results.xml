@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="0" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-29T14:10:22 IST" name="Suite" finished-at="2022-12-29T14:11:04 IST" duration-ms="41823">
+  <suite started-at="2023-01-07T18:19:40 IST" name="Suite" finished-at="2023-01-07T18:20:21 IST" duration-ms="41001">
     <groups>
     </groups>
-    <test started-at="2022-12-29T14:10:22 IST" name="Test chrome" finished-at="2022-12-29T14:10:41 IST" duration-ms="19288">
+    <test started-at="2023-01-07T18:19:40 IST" name="Test chrome" finished-at="2023-01-07T18:20:02 IST" duration-ms="21614">
       <class name="TestCase.TestCollectionPage">
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:TestCase.TestCollectionPage@4659191b]" started-at="2022-12-29T14:10:22 IST" name="setBrowser" finished-at="2022-12-29T14:10:32 IST" duration-ms="9663" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:TestCase.TestCollectionPage@4659191b]" started-at="2023-01-07T18:19:40 IST" name="setBrowser" finished-at="2023-01-07T18:19:52 IST" duration-ms="11917" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="abc()[pri:0, instance:TestCase.TestCollectionPage@4659191b]" started-at="2022-12-29T14:10:32 IST" name="abc" description="Test_CollectionPage" finished-at="2022-12-29T14:10:41 IST" duration-ms="9028" status="FAIL">
+        <test-method signature="abc()[pri:0, instance:TestCase.TestCollectionPage@4659191b]" started-at="2023-01-07T18:19:52 IST" name="abc" description="Test_CollectionPage" finished-at="2023-01-07T18:20:01 IST" duration-ms="8466" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[failed to click on checkclickxlbtn expected [true] but found [false]]]>
@@ -30,7 +30,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:819)
-at TestCase.TestCollectionPage.abc(TestCollectionPage.java:29)
+at TestCase.TestCollectionPage.abc(TestCollectionPage.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -65,15 +65,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- abc -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TestCollectionPage@4659191b]" started-at="2022-12-29T14:10:41 IST" name="close" finished-at="2022-12-29T14:10:41 IST" duration-ms="351" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TestCollectionPage@4659191b]" started-at="2023-01-07T18:20:01 IST" name="close" finished-at="2023-01-07T18:20:02 IST" duration-ms="867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- TestCase.TestCollectionPage -->
     </test> <!-- Test chrome -->
-    <test started-at="2022-12-29T14:10:41 IST" name="Test Edge" finished-at="2022-12-29T14:11:04 IST" duration-ms="22493">
+    <test started-at="2023-01-07T18:20:02 IST" name="Test Edge" finished-at="2023-01-07T18:20:21 IST" duration-ms="19328">
       <class name="TestCase.TestCollectionPage">
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:TestCase.TestCollectionPage@2794eab6]" started-at="2022-12-29T14:10:41 IST" name="setBrowser" finished-at="2022-12-29T14:10:49 IST" duration-ms="7884" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:TestCase.TestCollectionPage@2794eab6]" started-at="2023-01-07T18:20:02 IST" name="setBrowser" finished-at="2023-01-07T18:20:11 IST" duration-ms="9123" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="abc()[pri:0, instance:TestCase.TestCollectionPage@2794eab6]" started-at="2022-12-29T14:10:49 IST" name="abc" description="Test_CollectionPage" finished-at="2022-12-29T14:11:03 IST" duration-ms="14097" status="FAIL">
+        <test-method signature="abc()[pri:0, instance:TestCase.TestCollectionPage@2794eab6]" started-at="2023-01-07T18:20:11 IST" name="abc" description="Test_CollectionPage" finished-at="2023-01-07T18:20:20 IST" duration-ms="9185" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[failed to click on checkclickxlbtn expected [true] but found [false]]]>
@@ -96,7 +96,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:819)
-at TestCase.TestCollectionPage.abc(TestCollectionPage.java:29)
+at TestCase.TestCollectionPage.abc(TestCollectionPage.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -131,19 +131,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- abc -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TestCollectionPage@2794eab6]" started-at="2022-12-29T14:11:04 IST" name="close" finished-at="2022-12-29T14:11:04 IST" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TestCollectionPage@2794eab6]" started-at="2023-01-07T18:20:21 IST" name="close" finished-at="2023-01-07T18:20:21 IST" duration-ms="666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- TestCase.TestCollectionPage -->
     </test> <!-- Test Edge -->
-    <test started-at="2022-12-29T14:11:04 IST" name="Test Safari" finished-at="2022-12-29T14:11:04 IST" duration-ms="24">
+    <test started-at="2023-01-07T18:20:21 IST" name="Test Safari" finished-at="2023-01-07T18:20:21 IST" duration-ms="26">
       <class name="TestCase.TestCollectionPage">
-        <test-method is-config="true" signature="display1()[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2022-12-29T14:10:22 IST" name="display1" finished-at="2022-12-29T14:10:22 IST" duration-ms="425" status="PASS">
+        <test-method is-config="true" signature="display1()[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2023-01-07T18:19:40 IST" name="display1" finished-at="2023-01-07T18:19:40 IST" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- display1 -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2022-12-29T14:11:04 IST" name="setBrowser" finished-at="2022-12-29T14:11:04 IST" duration-ms="4" status="FAIL">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2023-01-07T18:20:21 IST" name="setBrowser" finished-at="2023-01-07T18:20:21 IST" duration-ms="8" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -199,7 +199,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="abc()[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2022-12-29T14:11:04 IST" name="abc" description="Test_CollectionPage" finished-at="2022-12-29T14:11:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="abc()[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2023-01-07T18:20:21 IST" name="abc" description="Test_CollectionPage" finished-at="2023-01-07T18:20:21 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Unable to find driver executable: \usr\bin\safaridriver(SafariDriver requires Safari 10 running on OSX El Capitan or greater.)
@@ -248,11 +248,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- abc -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2022-12-29T14:11:04 IST" name="close" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672303264367" status="SKIP">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2023-01-07T18:20:21 IST" name="close" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1673095821755" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="display2()[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2022-12-29T14:11:04 IST" name="display2" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672303264398" status="SKIP">
+        <test-method is-config="true" signature="display2()[pri:0, instance:TestCase.TestCollectionPage@6574a52c]" started-at="2023-01-07T18:20:21 IST" name="display2" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1673095821771" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- display2 -->

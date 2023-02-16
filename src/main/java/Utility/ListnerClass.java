@@ -20,6 +20,7 @@ public class ListnerClass extends ExtentReport implements ITestListener
 
 	public void onTestStart(ITestResult result) 
 	{
+		
 		test = extent.createTest(result.getMethod().getDescription());
 	}
 //
@@ -54,10 +55,8 @@ public class ListnerClass extends ExtentReport implements ITestListener
 			{
 			try 
 			{
-			test.log(Status.FAIL,
-			MarkupHelper.createLabel(result.getName() + " - Test Case Failed", ExtentColor.RED));
-			test.log(Status.FAIL,
-			MarkupHelper.createLabel(result.getThrowable() + " - Test Case Failed", ExtentColor.RED));
+			test.log(Status.FAIL,MarkupHelper.createLabel(result.getName() + " - Test Case Failed", ExtentColor.RED));
+			test.log(Status.FAIL,MarkupHelper.createLabel(result.getThrowable() + " - Test Case Failed", ExtentColor.RED));
 			test.addScreenCaptureFromPath(System.getProperty("user.dir")+"/screenShot/"+formatter.format(timestamp) +"-scrshot-1.png");
 			//test.log(Status.FAIL, (Markup) test.addScreenCaptureFromPath(System.getProperty("user.dir")+"/screenshots/"+result.getName()+" Failed"+".png"));
 			} 

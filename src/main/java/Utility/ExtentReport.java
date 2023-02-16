@@ -3,7 +3,6 @@ package Utility;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -16,7 +15,8 @@ public class ExtentReport
 	public static ExtentTest test;
 	String timeStamp;
 	
-	public static void setExtent() throws IOException {
+	public static void setExtent() throws IOException
+	{
 		//htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"MyReport_"+BaseClass.getCurrentTime()+".html");
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		htmlReporter= new ExtentSparkReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+timeStamp+"SurlelacAutomationReport.html");

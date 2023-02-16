@@ -5,9 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import com.aventstack.extentreports.Status;
-
 import Utility.BaseTest;
 import Utility.ExtentReport;
 import Utility.TestUtils;
@@ -52,7 +50,7 @@ public class CollectionPage
 	}
 	
 	
-	//Methods
+	//Each Elements Methods
 	public boolean clickproduct()
 	{
 		boolean result = false;
@@ -85,6 +83,7 @@ public class CollectionPage
 			TestUtils.log().info("click on xl btn");
 			result = true;
 			ExtentReport.test.log(Status.PASS,"click on xl btn");
+
 		}
 		catch(Exception e)
 		{
