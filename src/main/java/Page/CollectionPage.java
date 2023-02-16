@@ -50,7 +50,7 @@ public class CollectionPage
 	}
 	
 	
-	//Each Elements Methods
+	//Methods
 	public boolean clickproduct()
 	{
 		boolean result = false;
