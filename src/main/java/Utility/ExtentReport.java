@@ -23,7 +23,7 @@ public class ExtentReport
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir")+"/extent-config.xml");
 		htmlReporter.config().setDocumentTitle("Automation Test Report");
 		htmlReporter.config().setReportName("Surlelac Test Automation Report");
-		htmlReporter.config().setTheme(Theme.DARK);
+		htmlReporter.config().setTheme(Theme.DARK); 
 		
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);

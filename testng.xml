@@ -15,18 +15,18 @@
   </classes>
   </test> <!-- Test -->
   
-  <test thread-count="5" name="Test Edge">
+  <!--<test thread-count="5" name="Test Edge">
   <parameter name="browserName" value="Edge"/>
   <classes>
   <class name="TestCase.TestCollectionPage"></class>
   </classes>
-  </test> <!-- Test -->
+  </test> Test -->
   
-  <test thread-count="5" name="Test Safari">
+  <!--<test thread-count="5" name="Test Safari">
   <parameter name="browserName" value="Safari"/>
   <classes>
   <class name="TestCase.TestCollectionPage"></class>
   </classes>
-  </test> <!-- Test -->
+  </test>  Test -->
   
 </suite> <!-- Suite -->

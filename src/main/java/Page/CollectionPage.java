@@ -14,8 +14,12 @@ public class CollectionPage
 {
 	WebDriver driver;
 	
-	//first product
-	@FindBy(xpath = "//a[@href='/products/101-t-shirt']")
+	
+	//first product hi
+	
+	
+	
+	@FindBy(xpath = "//div[ @class='products/joy-of-painting-t-shirt']/div[1]/h3/a")
 	private WebElement firstproduct;
 	
 	@FindBy(xpath = "//label[@for='swatch-detail-43150060585134-1-XL']")
@@ -51,12 +55,14 @@ public class CollectionPage
 	
 	
 	//Methods
-	public boolean clickproduct()
+
+	
+	public boolean clickproduct ()
 	{
 		boolean result = false;
 		try 
 		{
-			BaseTest.explicitWaitMethod(driver, firstproduct);
+		BaseTest.explicitWaitMethod(driver, firstproduct);
 			firstproduct.click();
 			TestUtils.log().info("click on first product");
 			result = true;

@@ -10,14 +10,14 @@
 <dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
-    <version>5.3.0</version>
+    <version>5.3.0</version> 
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.7.2</version>
+    <version>4.9.1</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -34,7 +34,6 @@
     <artifactId>log4j-core</artifactId>
     <version>2.19.0</version>
 </dependency>
-
 <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>

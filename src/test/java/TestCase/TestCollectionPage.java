@@ -1,7 +1,4 @@
 package TestCase;
-
-
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import Page.CollectionPage;
@@ -11,16 +8,18 @@ import Utility.BaseTest;
 
 public class TestCollectionPage extends BaseTest
 {
-    @Test(description="Test_CollectionPage")
+    @Test(description="Test_CollectionPage") 
 	public void abc() throws InterruptedException
-	{
-		CollectionPage cp = new CollectionPage(driver);
+	{  
+		CollectionPage cp = new CollectionPage(driver); 
 		FormData fd = new FormData(driver);
+		
 		
 		cp.closePopUp2();
 		boolean checkclickproduct = cp.clickproduct();
 		Assert.assertEquals(checkclickproduct, true,"failed to click on checkclickproduct");
 		//ExtentReport.test.log(Status.PASS,"clickproduct")
+		
 		
 		boolean checkclickxlbtn = cp.clickxlbtn();
 		Assert.assertEquals(checkclickxlbtn, true,"failed to click on checkclickxlbtn");
